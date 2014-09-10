@@ -1,0 +1,16 @@
+Just unpack the source anywhere you want.
+
+Use PHP-CLI to run scrconv.php
+
+On Linux, install PHP-CLI package and run:
+
+$ ./scrconv.php IMAGE [configuration_file]
+
+On Windows, download PHP and run:
+
+c:>php.exe scrconv.php IMAGE [configuration_file]
+
+Check example.conf.php for a configuration example.
+
+--
+Rafael Jannone
