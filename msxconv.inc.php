@@ -420,7 +420,7 @@ class Surf {
 	}
 	
 	function findPalette(&$input, $dither) {
-		return $this->_findPalette(&$input, $dither, $this->palette_size);
+		return $this->_findPalette($input, $dither, $this->palette_size);
 	}
 	
 	function makePalette333() {

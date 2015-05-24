@@ -134,7 +134,7 @@ class Surf12 extends Surf {
 				$rm = ($v0[0] + $v1[0] + $v2[0] + $v3[0]) >> 2;
 				$gm = ($v0[1] + $v1[1] + $v2[1] + $v3[1]) >> 2;
 				$bm = ($v0[2] + $v1[2] + $v2[2] + $v3[2]) >> 2;
-				pixel_clamp_rgb(&$rm, &$gm, &$bm);
+				pixel_clamp_rgb($rm, $gm, $bm);
 				$rm >>= 3; $gm >>= 3; $bm >>= 3;
 				
 				// YJK mean

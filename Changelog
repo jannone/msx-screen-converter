@@ -1,2 +1,5 @@
 * 2007-03-27: version 0.8
 	- initial release
+
+* 2015-05-23: version 0.8.1
+  - fix for newer PHP versions

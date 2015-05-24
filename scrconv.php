@@ -193,7 +193,7 @@ function convert($file, $options) {
 		$tile = $options['tile'];
 		if ($tile) {
 			imagetruecolortopalette($input, false, 256);
-			$tilemap = image_to_tiles($input, &$tilecount);
+			$tilemap = image_to_tiles($input, $tilecount);
 			$input = image_to_truecolor($input);
 		}
 	}
