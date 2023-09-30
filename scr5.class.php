@@ -106,7 +106,7 @@ class Surf5 extends Surf {
 				
 				$e = array($v[0] - $_v['red'], $v[1] - $_v['green'], $v[2] - $_v['blue']);
 
-				$p = &$dither_line1[$x+1];
+				$p = &$dither_line1[$x+2];
 				$p[0] += $e[0] * 7 >> 4;
 				$p[1] += $e[1] * 7 >> 4;
 				$p[2] += $e[2] * 7 >> 4;
